@@ -1,0 +1,3 @@
+public void Static main(String[] args){
+    System out println("HelloWorld");
+}
