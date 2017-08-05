@@ -1,8 +1,7 @@
-package com.controller;
+package com.xxx.controller;
 
-import com.common.consts.ReCode;
-import com.common.consts.ReData;
-import com.common.util.ReUtil;
+import com.xxx.common.consts.ReData;
+import com.xxx.common.util.ReUtil;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -19,7 +18,7 @@ public class TestController {
     @ResponseBody
     public ReData getMessage(String message){
         if(message == null){
-            return ReUtil.fail("无信息!");
+            return ReUtil.fail("");
         }
         return ReUtil.success(message);
     }

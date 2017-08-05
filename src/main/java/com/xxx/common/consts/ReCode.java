@@ -1,4 +1,4 @@
-package com.common.consts;
+package com.xxx.common.consts;
 
 public enum ReCode {
     SUCCESS(0,"success"),
@@ -14,18 +14,7 @@ public enum ReCode {
 
     SING_ERROR(100004,"sign错误"),
 
-    GOLO_REQUEST_ERROR(400001,"golo平台接口请求出错"),
-
-    BRAND_NOT_FOUNT(400002,"该品牌存在"),
-
-    OBD_HAS_BINDED(400003,"obd已经被绑定"),
-
-    GOLO_DATA_NULL(400004,"空数据异常"),
-
-
-    GOLO_SERIES_NOT_EXITS(400005,"序列号不存在"),
-    OBD_SERIES_NOT_FOUNT(400006,"该OBD序列号不存在"),
-    DEVICE_NOT_ACTIVE(400007,"请先激活设备");
+    GOLO_DATA_NULL(400004,"空数据异常");
 
     private int code;
     private String msg;

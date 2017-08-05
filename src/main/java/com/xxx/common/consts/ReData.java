@@ -1,4 +1,4 @@
-package com.common.consts;
+package com.xxx.common.consts;
 
 public class ReData {
     

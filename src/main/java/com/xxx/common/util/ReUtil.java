@@ -1,8 +1,8 @@
-package com.common.util;
+package com.xxx.common.util;
 
 
-import com.common.consts.ReCode;
-import com.common.consts.ReData;
+import com.xxx.common.consts.ReCode;
+import com.xxx.common.consts.ReData;
 
 public class ReUtil {
     

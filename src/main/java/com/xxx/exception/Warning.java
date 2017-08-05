@@ -1,7 +1,7 @@
-package com.exception;
+package com.xxx.exception;
 
 
-import com.common.consts.ReCode;
+import com.xxx.common.consts.ReCode;
 
 public class Warning extends RuntimeException{
     
