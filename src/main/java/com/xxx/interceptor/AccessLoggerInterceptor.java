@@ -1,4 +1,4 @@
-package com.interceptor;
+package com.xxx.interceptor;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,7 +12,7 @@ import java.util.Arrays;
 import java.util.Map;
 
 /**
- * Created by WuHaiming on 2017/5/16 0016.
+ * Created by admin on 2017/5/16 0016.
  */
 public class AccessLoggerInterceptor extends HandlerInterceptorAdapter {
 

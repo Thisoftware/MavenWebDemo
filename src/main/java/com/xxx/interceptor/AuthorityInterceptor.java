@@ -1,4 +1,4 @@
-package com.interceptor;
+package com.xxx.interceptor;
 
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Created by WuHaiming on 2017/5/9 0009.
+ * Created by admin on 2017/5/9 0009.
  * 权限相关拦截器
  */
 public class AuthorityInterceptor extends HandlerInterceptorAdapter {
@@ -24,7 +24,7 @@ public class AuthorityInterceptor extends HandlerInterceptorAdapter {
 
         // 最后的情况就是进入登录页面
         //response.sendRedirect(request.getContextPath() + "/login");
-        return true;
+        return false;
     }
 
 

@@ -8,6 +8,15 @@
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
 
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>
+			classpath*:spring/spring-dao.xml
+			classpath*:spring/spring-service.xml
+			classpath*:spring/spring-web.xml
+		</param-value>
+	</context-param>
+
 	<!-- 编码过滤器 -->
 	<filter>
 		<filter-name>encodingFilter</filter-name>
@@ -30,7 +39,7 @@
 		<!-- 配置SpringMVC需要加载的配置文件 spring-xxx.xml -->
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
-			<param-value>classpath:mvc-dispatcher-servlet.xml</param-value>
+			<param-value>classpath:spring/spring-web.xml</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
@@ -40,14 +49,9 @@
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 
-	<context-param>
-		<param-name>contextConfigLocation</param-name>
-		<param-value>classpath*:mvc-dispatcher-servlet.xml</param-value>
-	</context-param>
-
 
 	<welcome-file-list>
-		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>views/index.jsp</welcome-file>
 	</welcome-file-list>
 
 </web-app>

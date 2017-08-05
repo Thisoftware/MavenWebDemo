@@ -1,10 +1,10 @@
-package com.exception;
+package com.xxx.exception;
 
 import javax.servlet.http.HttpServletRequest;
 
-import com.cxzh.chaos.common.consts.ReCode;
-import com.cxzh.chaos.common.consts.ReData;
-import com.cxzh.chaos.common.util.ReUtil;
+import com.xxx.common.consts.ReCode;
+import com.xxx.common.consts.ReData;
+import com.xxx.common.util.ReUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.ControllerAdvice;
